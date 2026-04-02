@@ -3,7 +3,7 @@ import streamlit as st
 import pandas as pd
 
 # Load model (pipeline Random Forest)
-model = pickle.load(open('diabetes_model.sav', 'rb'))
+model = pickle.load(open('diabetes_model (2).sav', 'rb'))
 
 # Judul
 st.title('🩺 Prediksi Diabetes')
